@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Memory Game</h1>
+  <div class="stats">
+    <span id="moves">Moves: 0</span>
+    <span id="timer">Time: 0s</span>
+    <button onclick="resetGame()">Restart</button>
+  </div>
+  <div class="game-board" id="gameBoard"></div>
+
+  <script src="script.js"></script>
+  <div id="winModal" class="modal">
+  <div class="modal-content">
+    <h2>🎉 You Win!</h2>
+    <p id="winStats"></p>
+    <button onclick="resetGame()">Play Again 🔁</button>
+  </div>
+</div>
+
+</body>
+</html>
