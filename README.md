@@ -9,7 +9,7 @@ A fun and interactive memory matching game built using **HTML**, **CSS**, and **
 - 🎵 Sound effects for flip and win
 - 🧩 Custom modal popup on game win
 - 🎨 Responsive layout with a background image
-- 🧠 Difficulty can be scaled (by changing number of pairs)
+
 
 
 
